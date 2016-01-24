@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IconifyXamarin", "IconifyXamarin\IconifyXamarin.csproj", "{DAD6FACF-0F9F-4514-BA3B-6DD41888AE84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IconifyXamarin.FontAwesome", "IconifyXamarin.FontAwesome\IconifyXamarin.FontAwesome.csproj", "{93344632-479C-41C1-910C-6A76A9927586}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IconifyXamarin.Entypo", "IconifyXamarin.Entypo\IconifyXamarin.Entypo.csproj", "{F2F44519-3FED-4B0B-8D1F-DF1C08DBC2C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IconifyXamarin.Ionicons", "IconifyXamarin.Ionicons\IconifyXamarin.Ionicons.csproj", "{D3C9B193-ADC2-4CD7-B913-F2313489736E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IconifyXamarin.MaterialCommunity", "IconifyXamarin.MaterialCommunity\IconifyXamarin.MaterialCommunity.csproj", "{115B5E62-03FF-48EA-B4E5-0298885B8240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IconifyXamarin.Material", "IconifyXamarin.Material\IconifyXamarin.Material.csproj", "{F4B9C78B-A7CB-4C00-8020-465613900020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IconifyXamarin.Meteocons", "IconifyXamarin.Meteocons\IconifyXamarin.Meteocons.csproj", "{7AC7BAB2-2729-4DB6-A65E-5EE1E64B819E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IconifyXamarin.SimpleLineIcons", "IconifyXamarin.SimpleLineIcons\IconifyXamarin.SimpleLineIcons.csproj", "{B6E17834-EBC4-405D-B9E4-DA3780294830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IconifyXamarin.Typicons", "IconifyXamarin.Typicons\IconifyXamarin.Typicons.csproj", "{E3335F15-A8AB-4C98-BD03-1ACAD5330115}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IconifyXamarin.Weathericons", "IconifyXamarin.Weathericons\IconifyXamarin.Weathericons.csproj", "{9F421CCC-45A0-4C6A-AD1C-FDE061C36179}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAD6FACF-0F9F-4514-BA3B-6DD41888AE84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD6FACF-0F9F-4514-BA3B-6DD41888AE84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD6FACF-0F9F-4514-BA3B-6DD41888AE84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD6FACF-0F9F-4514-BA3B-6DD41888AE84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93344632-479C-41C1-910C-6A76A9927586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93344632-479C-41C1-910C-6A76A9927586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93344632-479C-41C1-910C-6A76A9927586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93344632-479C-41C1-910C-6A76A9927586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2F44519-3FED-4B0B-8D1F-DF1C08DBC2C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F44519-3FED-4B0B-8D1F-DF1C08DBC2C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F44519-3FED-4B0B-8D1F-DF1C08DBC2C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F44519-3FED-4B0B-8D1F-DF1C08DBC2C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3C9B193-ADC2-4CD7-B913-F2313489736E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C9B193-ADC2-4CD7-B913-F2313489736E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C9B193-ADC2-4CD7-B913-F2313489736E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C9B193-ADC2-4CD7-B913-F2313489736E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{115B5E62-03FF-48EA-B4E5-0298885B8240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{115B5E62-03FF-48EA-B4E5-0298885B8240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{115B5E62-03FF-48EA-B4E5-0298885B8240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{115B5E62-03FF-48EA-B4E5-0298885B8240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B9C78B-A7CB-4C00-8020-465613900020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B9C78B-A7CB-4C00-8020-465613900020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B9C78B-A7CB-4C00-8020-465613900020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B9C78B-A7CB-4C00-8020-465613900020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AC7BAB2-2729-4DB6-A65E-5EE1E64B819E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AC7BAB2-2729-4DB6-A65E-5EE1E64B819E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AC7BAB2-2729-4DB6-A65E-5EE1E64B819E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AC7BAB2-2729-4DB6-A65E-5EE1E64B819E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6E17834-EBC4-405D-B9E4-DA3780294830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E17834-EBC4-405D-B9E4-DA3780294830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E17834-EBC4-405D-B9E4-DA3780294830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6E17834-EBC4-405D-B9E4-DA3780294830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3335F15-A8AB-4C98-BD03-1ACAD5330115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3335F15-A8AB-4C98-BD03-1ACAD5330115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3335F15-A8AB-4C98-BD03-1ACAD5330115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3335F15-A8AB-4C98-BD03-1ACAD5330115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F421CCC-45A0-4C6A-AD1C-FDE061C36179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F421CCC-45A0-4C6A-AD1C-FDE061C36179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F421CCC-45A0-4C6A-AD1C-FDE061C36179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F421CCC-45A0-4C6A-AD1C-FDE061C36179}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
