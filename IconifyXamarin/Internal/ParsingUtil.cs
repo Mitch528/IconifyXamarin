@@ -43,7 +43,7 @@ namespace IconifyXamarin.Internal
             {
                 if (target == null)
                     throw new IllegalArgumentException("You can't use \"spin\" without providing the target TextView.");
-                if (!target.GetType().IsInstanceOfType(typeof(IHasOnViewAttachListener)))
+                if (!(target is IHasOnViewAttachListener))
                     throw new IllegalArgumentException(target.GetType().Name + " does not implement " +
                             "HasOnViewAttachListener. Please use IconTextView, IconButton or IconToggleButton.");
 
@@ -54,7 +54,7 @@ namespace IconifyXamarin.Internal
                     isAttached = true;
 
                     Runnable runnable = null;
-                    runnable = new Java.Lang.Runnable(() =>
+                    runnable = new Runnable(() =>
                     {
                         if (isAttached)
                         {
@@ -70,9 +70,9 @@ namespace IconifyXamarin.Internal
 
                 ((IHasOnViewAttachListener)target).SetOnViewAttachListener(listener);
             }
-            else if (target.GetType().IsInstanceOfType(typeof(IHasOnViewAttachListener)))
+            else
             {
-                ((IHasOnViewAttachListener)target).SetOnViewAttachListener(null);
+                (target as IHasOnViewAttachListener)?.SetOnViewAttachListener(null);
             }
 
             return spannableBuilder;
@@ -99,7 +99,7 @@ namespace IconifyXamarin.Internal
             if (startIndex == -1) return;
             int endIndex = stringText.IndexOf("}", startIndex, StringComparison.Ordinal) + 1;
             string expression = stringText.Substring(startIndex + 1, endIndex - startIndex - 2);
-            
+
             // Split the expression and retrieve the icon key
             string[] strokes = expression.Split(' ');
             string key = strokes[0];
@@ -195,7 +195,7 @@ namespace IconifyXamarin.Internal
                     throw new IllegalArgumentException("Unknown expression " + stroke + " in \"" + fullText + "\"");
                 }
             }
-
+            
             // Replace the character and apply the typeface
             text = (SpannableStringBuilder)text.Replace(startIndex, endIndex, "" + icon.Character);
             text.SetSpan(new CustomTypefaceSpan(icon,
@@ -203,6 +203,7 @@ namespace IconifyXamarin.Internal
                             iconSizePx, iconSizeRatio, iconColor, spin, baselineAligned),
                     startIndex, startIndex + 1,
                     SpanTypes.InclusiveExclusive);
+            
             RecursivePrepareSpannableIndexes(context, fullText, text, iconFontDescriptors, startIndex);
         }
 
