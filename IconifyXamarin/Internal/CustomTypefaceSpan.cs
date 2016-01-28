@@ -66,6 +66,7 @@ namespace IconifyXamarin.Internal
             canvas.DrawText(icon,
                     x - TEXT_BOUNDS.Left,
                     y - TEXT_BOUNDS.Bottom + TEXT_BOUNDS.Height() * baselineRatio, paint);
+            canvas.Restore();
         }
 
         public override int GetSize(Paint paint, ICharSequence text, int start, int end, Paint.FontMetricsInt fm)
