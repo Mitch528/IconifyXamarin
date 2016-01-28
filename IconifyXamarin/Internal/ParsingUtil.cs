@@ -75,8 +75,6 @@ namespace IconifyXamarin.Internal
                 ((IHasOnViewAttachListener)target).SetOnViewAttachListener(null);
             }
 
-            //System.Diagnostics.Debug.WriteLine("TESTING");
-            //System.Diagnostics.Debug.WriteLine("TESTING : " + spannableBuilder.ToString());
             return spannableBuilder;
         }
 
@@ -101,9 +99,7 @@ namespace IconifyXamarin.Internal
             if (startIndex == -1) return;
             int endIndex = stringText.IndexOf("}", startIndex, StringComparison.Ordinal) + 1;
             string expression = stringText.Substring(startIndex + 1, endIndex - startIndex - 2);
-
-            System.Diagnostics.Debug.WriteLine("\"" + expression + "\"" + " " + startIndex);
-
+            
             // Split the expression and retrieve the icon key
             string[] strokes = expression.Split(' ');
             string key = strokes[0];
